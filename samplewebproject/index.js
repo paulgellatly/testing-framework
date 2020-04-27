@@ -8,6 +8,6 @@ document.querySelector('form').addEventListener('submit', (event) => {
 	if (value.includes('@')) {
 		header.innerHTML = 'Looks Good';
 	} else {
-		header.innerHTML = 'Invalid email';
+		header.innerHTML = 'Invalid Email';
 	}
 });
